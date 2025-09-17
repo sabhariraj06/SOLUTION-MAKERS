@@ -1,0 +1,65 @@
+{
+  "form_id": "ef6e7526-437",
+  "title": "Quiz - CV.pdf",
+  "questions": [
+    {
+      "question": "What is the primary task of image classification according to the provided text?",
+      "options": {
+        "a": "Image classification involves labelling individual pixels in an image.",
+        "b": "Image classification is the task of labelling the whole image with an object or concept with confidence.",
+        "c": "Image classification requires a human to manually identify and categorize each element within an image.",
+        "d": "Image classification is a process where a computer program analyzes facial features for gender identification."
+      },
+      "correct_answer": "b",
+      "explanation": "The text clearly defines image classification as labelling the entire image with an object or concept, emphasizing the confidence level in the prediction. Options (a) and (c) describe more specific tasks within image processing, while option (d) is a specific application of image classification."
+    },
+    {
+      "question": "Which layer type, according to the text, performs feature extraction and transformation in a Deep Neural Network?",
+      "options": {
+        "a": "Input Layer",
+        "b": "Hidden Layers",
+        "c": "Output Layer",
+        "d": "Bias Adjustment Layer"
+      },
+      "correct_answer": "b",
+      "explanation": "The text specifies that hidden layers are responsible for feature extraction and transformation. The input layer receives data, the output layer produces results, and bias adjustment layers modify outputs, not perform feature extraction."
+    },
+    {
+      "question": "What does 'activation function' in a neural network refer to, as described in the text?",
+      "options": {
+        "a": "A parameter that determines the importance of each input to a neuron.",
+        "b": "The process of updating weights and biases in the network.",
+        "c": "A method used to update the network's parameters during training.",
+        "d": "A common loss function for classification tasks."
+      },
+      "correct_answer": "a",
+      "explanation": "Activation functions are described as functions applied to a neuron\u2019s output, determining its importance. The text clearly defines activation functions and their role in introducing non-linearity into the model."
+    },
+    {
+      "question": "What is the primary difference between TensorFlow 1.x and TensorFlow 2.x as explained in the text?",
+      "options": {
+        "a": "TensorFlow 1.x uses eager execution by default, whereas TensorFlow 2.x only allows graph execution.",
+        "b": "TensorFlow 1.x focuses on computational graphs with session-based execution, while TensorFlow 2.x supports both.",
+        "c": "Both TensorFlow 1.x and TensorFlow 2.x employ similar computational graph concepts but differ in their execution paradigms.",
+        "d": "TensorFlow 1.x is more user-friendly and intuitive than TensorFlow 2.x."
+      },
+      "correct_answer": "c",
+      "explanation": "The text explicitly states that TensorFlow 2.x has eager execution enabled by default, making operations executable immediately as defined. This contrasts with TensorFlow 1.x's graph execution, which required running the computational graph within a session to perform computations."
+    },
+    {
+      "question": "What is the purpose of 'backpropagation' in deep learning, according to the provided text?",
+      "options": {
+        "a": "Backpropagation updates weights and biases based on gradient descent.",
+        "b": "It calculates the loss function directly for classification tasks.",
+        "c": "Backpropagation adjusts neural network parameters by calculating gradients with respect to each parameter.",
+        "d": "It determines the optimal placement of nodes in a computational graph."
+      },
+      "correct_answer": "c",
+      "explanation": "The text describes backpropagation as the process of updating weights and biases using gradient descent. It calculates gradients concerning each parameter, facilitating optimization during training."
+    }
+  ],
+  "quiz_url": "/quiz/ef6e7526-437",
+  "share_url": "http://localhost:8501?quiz_id=ef6e7526-437",
+  "created_at": "2025-09-18T00:55:10.193791",
+  "is_shareable": true
+}

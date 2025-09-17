@@ -1,0 +1,54 @@
+{
+  "form_id": "528ea963-eb5",
+  "title": "Quiz - CV.pdf",
+  "questions": [
+    {
+      "question": "What is image classification in the context of deep learning?",
+      "options": {
+        "a": "Labelling the entire image with an object or concept with confidence.",
+        "b": "Identifying the gender of a person from their face image.",
+        "c": "Tagging photos with their respective categories.",
+        "d": "Recognizing the type of pet in a photo."
+      },
+      "correct_answer": "a",
+      "explanation": "Image classification is defined as labelling the whole image with an object or concept, along with a confidence level. It involves assigning a class to an entire image, which is the process described in option (a)."
+    },
+    {
+      "question": "Which of the following is a key feature of Deep Neural Networks?",
+      "options": {
+        "a": "A type of artificial neural network with multiple layers.",
+        "b": "A method for data compression.",
+        "c": "A programming language used in TensorFlow.",
+        "d": "A technique for noise reduction in images."
+      },
+      "correct_answer": "a",
+      "explanation": "Deep Neural Networks (DNNs) are a specific type of artificial neural network characterized by having multiple layers between the input and output layers, as described in option (a)."
+    },
+    {
+      "question": "What is the primary function of a hidden layer in a Deep Neural Network?",
+      "options": {
+        "a": "Receiving input data.",
+        "b": "Performing feature extraction and transformation.",
+        "c": "Producing the final output of the network.",
+        "d": "Updating weights and biases during training."
+      },
+      "correct_answer": "b",
+      "explanation": "Hidden layers in DNNs serve as intermediate layers where complex features are extracted from raw input data, as mentioned in option (b)."
+    },
+    {
+      "question": "What is the main distinction between TensorFlow 1.x and TensorFlow 2.x?",
+      "options": {
+        "a": "TensorFlow 1.x uses eager execution by default.",
+        "b": "TensorFlow 2.x employs graph execution as its primary approach.",
+        "c": "Both versions support automatic differentiation for gradient-based optimization.",
+        "d": "TensorFlow 2.x introduces a new, more user-friendly API."
+      },
+      "correct_answer": "a",
+      "explanation": "The key difference between TensorFlow 1.x and TensorFlow 2.x is that the latter enables eager execution by default, executing operations immediately as they are defined, while TensorFlow 1.x required building a computational graph and then executing it within a session."
+    }
+  ],
+  "quiz_url": "/quiz/528ea963-eb5",
+  "share_url": "http://localhost:8501?quiz_id=528ea963-eb5",
+  "created_at": "2025-09-18T01:54:19.272781",
+  "is_shareable": true
+}

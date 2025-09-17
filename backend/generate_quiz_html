@@ -1,0 +1,18 @@
+# In generate_quiz_html function, add video info display
+html_content = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... existing head content ... -->
+</head>
+<body>
+    <div class="main-container">
+        <!-- Quiz Section -->
+        <div class="quiz-section">
+            <div class="quiz-header">
+                <h1>📝 {quiz_data['title']}</h1>
+                <p>Total Questions: {len(quiz_data['questions'])} | 🔒 Proctored Test</p>
+                <p style="color: #ff6b6b; font-weight: bold;">⚠️ 3 malpractices will auto-submit your test!</p>
+                {"<p>🎥 <a href='" + quiz_data.get('video_info', {}).get('url', '') + "' target='_blank'>Watch Original Video</a></p>" if quiz_data.get('video_info') else ""}
+            </div>
+            <!-- ... rest of the HTML ... -->

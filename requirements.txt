@@ -1,0 +1,12 @@
+streamlit
+pymupdf
+sentence-transformers
+faiss-cpu
+requests
+numpy
+opencv-python
+numpy
+yt-dlp
+openai-whisper
+pytube
+whisper

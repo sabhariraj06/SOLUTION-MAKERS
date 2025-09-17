@@ -1,0 +1,21 @@
+{
+  "form_id": "e605c3af-3d0",
+  "title": "Quiz - CV.pdf",
+  "questions": [
+    {
+      "question": "What is Image Classification in the context of Deep Learning for Computer Vision?",
+      "options": {
+        "a": "Labelling an image with a single object or concept with absolute certainty.",
+        "b": "A method used primarily for speech recognition, not image processing.",
+        "c": "Technique employed in natural language processing to categorize text into predefined classes.",
+        "d": "Process of identifying the gender of a person by analyzing their face in an image."
+      },
+      "correct_answer": "a",
+      "explanation": "Image Classification, as described, is the task of labelling the whole image with an object or concept with confidence. This includes various applications like gender classification, pet identification, and photo tagging."
+    }
+  ],
+  "quiz_url": "/quiz/e605c3af-3d0",
+  "share_url": "http://localhost:8501?quiz_id=e605c3af-3d0",
+  "created_at": "2025-09-18T02:26:56.429060",
+  "is_shareable": true
+}

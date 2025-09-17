@@ -1,0 +1,63 @@
+{
+  "form_id": "450122e0",
+  "title": "Quiz - CV.pdf",
+  "questions": [
+    {
+      "question": "What is image classification in the context of computer vision?",
+      "options": {
+        "a": "Labelling the whole image with an object or concept with confidence.",
+        "b": "Identifying the type of pet given an image of a person's face.",
+        "c": "Tagging photos.",
+        "d": "Generating new images from scratch."
+      },
+      "correct_answer": "a",
+      "explanation": "Image classification is the task of labelling the whole image with an object or concept with confidence, which includes tasks like gender classification, pet identification, and photo tagging."
+    },
+    {
+      "question": "What are hidden layers in a Deep Neural Network (DNN)?",
+      "options": {
+        "a": "The first layer of the network that receives input data.",
+        "b": "Intermediate layers between the input and output layers, responsible for feature extraction and transformation.",
+        "c": "The final layer that produces the network's output.",
+        "d": "Layers used in traditional neural networks but not in DNNs."
+      },
+      "correct_answer": "b",
+      "explanation": "Hidden layers are intermediate layers between the input and output layers of a Deep Neural Network (DNN). They perform feature extraction and transformation, enabling DNNs to model complex features from data."
+    },
+    {
+      "question": "What is the purpose of activation functions in a neural network?",
+      "options": {
+        "a": "Activation functions determine the importance of each input to a neuron.",
+        "b": "They introduce non-linearity into the model, allowing it to learn complex patterns.",
+        "c": "Weights and biases are determined by activation functions.",
+        "d": "Backpropagation is implemented using activation functions."
+      },
+      "correct_answer": "b",
+      "explanation": "Activation functions introduce non-linearity into the model, enabling neural networks to learn complex patterns. Common activation functions include ReLU (Rectified Linear Unit), sigmoid, and tanh."
+    },
+    {
+      "question": "What is the difference between TensorFlow 1.x and TensorFlow 2.x?",
+      "options": {
+        "a": "TensorFlow 1.x uses eager execution by default, while TensorFlow 2.x has it disabled.",
+        "b": "Eager execution was enabled by default in TensorFlow 1.x, but is now deprecated in favor of graph execution in TensorFlow 2.x.",
+        "c": "TensorFlow 2.x uses computational graphs as the primary execution model, while TensorFlow 1.x relies on session-based execution.",
+        "d": "TensorFlow 1.x supports only CPU computations, whereas TensorFlow 2.x supports GPU and TPU computations."
+      },
+      "correct_answer": "b",
+      "explanation": "In TensorFlow 1.x, eager execution was enabled by default, making the code more intuitive and easier to work with. However, in TensorFlow 2.x, eager execution is deprecated, and graph execution is now the default, enabling operations to be executed immediately as they are defined."
+    },
+    {
+      "question": "What role do constants play in TensorFlow?",
+      "options": {
+        "a": "Constants are immutable tensors whose values cannot be changed during execution.",
+        "b": "They represent variables that can be updated during training.",
+        "c": "Used for defining operations and their input/output relationships.",
+        "d": "They are used to store intermediate results in a computational graph."
+      },
+      "correct_answer": "a",
+      "explanation": "Constants (tf.constant) are immutable tensors with fixed values that cannot be changed during execution. They are used when you have known values that should not change during the computation of the graph."
+    }
+  ],
+  "view_url": "/quiz/450122e0",
+  "response_url": "/quiz/450122e0/submit"
+}

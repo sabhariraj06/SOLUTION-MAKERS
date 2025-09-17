@@ -1,0 +1,65 @@
+{
+  "form_id": "76666721-6df",
+  "title": "Quiz - CV.pdf",
+  "questions": [
+    {
+      "question": "What is image classification in the context of computer vision?",
+      "options": {
+        "a": "Labelling the whole image with an object or concept",
+        "b": "Classifying a single pixel in an image",
+        "c": "Identifying the position of objects within an image",
+        "d": "Recognizing the facial expression of a person in an image"
+      },
+      "correct_answer": "a",
+      "explanation": "Image classification is the task of labelling the whole image with an object or concept, such as identifying the gender of a person in a photo or recognizing the type of pet."
+    },
+    {
+      "question": "What are hidden layers in a Deep Neural Network (DNN)?",
+      "options": {
+        "a": "The layers that directly receive input data",
+        "b": "The layers that produce the final output of the network",
+        "c": "Intermediate layers between the input and output layers, responsible for feature extraction and transformation",
+        "d": "Layers that apply non-linear functions to the input data"
+      },
+      "correct_answer": "c",
+      "explanation": "Hidden layers are the intermediate layers in a DNN that perform feature extraction and transformation from the input data."
+    },
+    {
+      "question": "What is the primary function of weights and biases in a neural network?",
+      "options": {
+        "a": "Calculating the gradient of the loss function",
+        "b": "Determining the importance of each input to a neuron",
+        "c": "Applying non-linear functions to the output of neurons",
+        "d": "Storing the final output of the network"
+      },
+      "correct_answer": "b",
+      "explanation": "Weights determine the importance of each input feature for a neuron, while biases allow the model to fit the data better by providing a degree of freedom."
+    },
+    {
+      "question": "What is the main advantage of TensorFlow 2.x over TensorFlow 1.x?",
+      "options": {
+        "a": "TensorFlow 1.x uses Pythonic code, which is easier to read, debug, and maintain",
+        "b": "TensorFlow 1.x enables backward propagation without explicit computational graphs",
+        "c": "TensorFlow 2.x uses eager execution by default, making operations executed immediately as they are defined",
+        "d": "TensorFlow 2.x introduces a new optimization algorithm for faster training"
+      },
+      "correct_answer": "c",
+      "explanation": "TensorFlow 2.x's main advantage is the use of eager execution by default, which makes operations executed immediately as they are defined, making the code more intuitive and easier to work with."
+    },
+    {
+      "question": "What is the purpose of an activation function in a neural network?",
+      "options": {
+        "a": "Calculating the gradient of the loss function",
+        "b": "Introducing linearity into the model",
+        "c": "Applying non-linear functions to the output of neurons, allowing complex patterns to be learned",
+        "d": "Storing the final output of the network"
+      },
+      "correct_answer": "c",
+      "explanation": "Activation functions introduce non-linearity into the model, enabling it to learn complex patterns and representations from the data."
+    }
+  ],
+  "quiz_url": "/quiz/76666721-6df",
+  "share_url": "http://localhost:8501?quiz_id=76666721-6df",
+  "created_at": "2025-09-18T00:03:09.974972",
+  "is_shareable": true
+}
